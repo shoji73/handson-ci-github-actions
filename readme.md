@@ -10,7 +10,7 @@ This is demo page of js on Nginx on Docker and k8s.
 　
 ## docker build/push Commands for mac or linux
 ```
-cd demo-js-nginx/
+cd demo-js-nginx-docker-k8s/
 docker build -t takuyak/nginx-sample-bl:v1 ./
 docker run --rm -d --name demo -p 80:80 takuyak/nginx-sample-bl:v1
 docker stop demo
